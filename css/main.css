@@ -847,6 +847,22 @@ body {
   margin-bottom: 94px;
 }
 
+.clients-img {
+  display: block;
+  width: 170px;
+  height: 90px;
+  color: #afb1b8;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 20px 63px;
+}
+
+.clients-img:hover {
+  border: 1px solid #2196f3;
+  color: #2196f3;
+}
+
 .contacts-link {
   font-weight: 500;
   line-height: 1.143;

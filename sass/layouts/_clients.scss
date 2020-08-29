@@ -2,4 +2,22 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 94px;
+
+  &-img {
+    display: block;
+    width: 170px;
+    height: 90px;
+
+    color: $icons-color;
+
+    border: 1px solid $icons-color;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 20px 63px;
+  }
+
+  &-img:hover {
+    border: 1px solid $accent-color;
+    color: $accent-color;
+  }
 }
