@@ -71,11 +71,11 @@
 
   transition: background-color 250ms $timing-function,
     fill 250ms $timing-function;
-}
 
-.link-icon-footer:hover,
-.link-icon-footer:focus {
-  background: $accent-color;
+  &:hover,
+  &:focus {
+    background: $accent-color;
+  }
 }
 
 .form-footer {

@@ -450,6 +450,7 @@ body {
   color: #000000;
   outline: none;
   cursor: pointer;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn-close:hover,
@@ -479,6 +480,10 @@ body {
   display: flex;
 }
 
+.menu-list-link:not(:last-child) {
+  margin-right: 8px;
+}
+
 .menu-item:not(:last-child) {
   display: flex;
   margin-right: 50px;
@@ -495,8 +500,7 @@ body {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.menu-link:hover,
-.menu-link:focus {
+.menu-link:hover, .menu-link:focus {
   color: #2196f3;
 }
 
@@ -521,14 +525,9 @@ body {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.menu-link-saction:hover,
-.menu-link-saction:focus {
+.menu-link-saction:hover, .menu-link-saction:focus {
   background: #2196f3;
   color: #ffffff;
-}
-
-.menu-list-link:not(:last-child) {
-  margin-right: 8px;
 }
 
 .link-icon {
@@ -543,8 +542,7 @@ body {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.link-icon:hover,
-.link-icon:focus {
+.link-icon:hover, .link-icon:focus {
   background: #2196f3;
   fill: #ffffff;
 }
@@ -605,6 +603,10 @@ body {
   text-decoration: none;
 }
 
+.web-container:nth-last-child(-n + 3) {
+  margin-bottom: 0px;
+}
+
 .web-container:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -616,14 +618,14 @@ body {
   text-decoration: none;
 }
 
+.special-item:hover .overlay {
+  transform: translatey(0);
+}
+
 .box {
   display: flex;
   position: relative;
   overflow: hidden;
-}
-
-.special-item:hover .overlay {
-  transform: translatey(0);
 }
 
 .overlay {
@@ -649,10 +651,6 @@ body {
   margin: 0;
   padding-top: 63px;
   padding-bottom: 63px;
-}
-
-.web-container:nth-last-child(-n + 3) {
-  margin-bottom: 0px;
 }
 
 .main-title {
@@ -749,8 +747,7 @@ body {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.link-icon-footer:hover,
-.link-icon-footer:focus {
+.link-icon-footer:hover, .link-icon-footer:focus {
   background: #2196f3;
 }
 

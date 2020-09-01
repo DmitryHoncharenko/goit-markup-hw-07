@@ -10,10 +10,10 @@
 
   transition: background-color 250ms $timing-function,
     fill 250ms $timing-function;
-}
 
-.link-icon:hover,
-.link-icon:focus {
-  background: $accent-color;
-  fill: $white-color;
+  &:hover,
+  &:focus {
+    background: $accent-color;
+    fill: $white-color;
+  }
 }
