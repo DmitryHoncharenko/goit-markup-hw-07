@@ -9,36 +9,38 @@
   margin-right: 70px;
   padding-top: 60px;
   padding-bottom: 60px;
+
+  &-title {
+    text-align: center;
+    color: $white-color;
+  }
+
+  &-social {
+    padding-top: 72px;
+    padding-bottom: 100px;
+    margin-right: 93px;
+  }
 }
 
 .logo-footer {
   margin-bottom: 20px;
 }
 
-.address-title {
-  text-align: center;
-  color: $white-color;
-}
-
-.text-adress-p {
-  text-align: justify;
-  margin: 0;
-  margin-bottom: 9px;
-}
-
 .text-adress {
   text-align: justify;
   margin: 0;
-}
 
-.text-adress:not(:last-child) {
-  margin-bottom: 9px;
-}
+  &:not(:last-child) {
+    margin-bottom: 9px;
+  }
 
-.adress-social {
-  padding-top: 72px;
-  padding-bottom: 100px;
-  margin-right: 93px;
+  &-p {
+    font-style: normal;
+    text-align: justify;
+    margin: 0;
+    margin-bottom: 9px;
+    color: $white-color;
+  }
 }
 
 .item-title-footer {

@@ -14,7 +14,7 @@
 .menu-link {
   position: relative;
   display: block;
-  font-weight: 500;
+  font-weight: bold;
   line-height: 1.143;
   letter-spacing: 0.02em;
   color: $black-color;
@@ -35,7 +35,7 @@
   }
 
   &-saction {
-    font-weight: 500;
+    font-weight: bold;
     font-size: 16px;
     line-height: 1.625;
     text-align: center;

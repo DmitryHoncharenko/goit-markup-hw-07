@@ -7,3 +7,35 @@ $footer-list: #2f303a;
 $gray-color: #f5f4fa;
 $icons-color: #afb1b8;
 $timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../fonts/roboto/roboto-v20-latin-regular.woff"),
+    url("../../fonts/roboto/roboto-v20-latin-regular.woff2");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../../fonts/roboto/roboto-v20-latin-500.woff"),
+    url("../../fonts/roboto/roboto-v20-latin-500.woff2");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../../fonts/roboto/roboto-v20-latin-700.woff"),
+    url("../../fonts/roboto/roboto-v20-latin-700.woff2");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../../fonts/roboto/roboto-v20-latin-900.woff"),
+    url("../../fonts/roboto/roboto-v20-latin-900.woff2");
+}
